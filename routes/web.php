@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('hello',function (){
     return "Hello World";
 });
+Route::get('valentine',function (){
+    return "Valentine day";
+});
