@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/code',function (){
-    return "Lập trình Laravel 5";
+Route::get('hello',function (){
+    return "Hello World";
 });
